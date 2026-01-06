@@ -13,7 +13,7 @@ Payroll fraud labels are rare and unreliable.
 Instead of training on labeled data, the model learns what normal payroll behavior looks like
 and identifies deviations as potential anomalies.
 
-## Feature Engineering (Human Logic)
+## Feature Engineering 
 Instead of using raw salary values, behavior-based features were created:
 - **OvertimeRatio**: Overtime pay relative to base salary
 - **OtherPayRatio**: Additional pay relative to base salary
@@ -41,3 +41,4 @@ These cases typically show unusually high overtime ratios or excessive extra pay
 - Pandas
 - NumPy
 - Scikit-learn
+
