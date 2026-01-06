@@ -1,0 +1,15 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large raw datasets if needed
+Salaries.csv
+
+# Ignore virtual environment (if you create it later)
+venv/
+.env/
