@@ -8,12 +8,20 @@ However, labeled fraud data is usually not available, which makes supervised lea
 This project uses an unsupervised anomaly detection approach to learn normal payroll behavior
 and automatically flag unusual salary and overtime patterns.
 
+## 🚀 Quick Start
+```bash
+pip install -r requirements.txt
+python anomaly_detection.py
+```
+
+📁 Output file: detected_payroll_anomalies.csv
+
 ## Why Unsupervised Learning?
 Payroll fraud labels are rare and unreliable.
 Instead of training on labeled data, the model learns what normal payroll behavior looks like
 and identifies deviations as potential anomalies.
 
-## Feature Engineering 
+## Feature Engineering
 Instead of using raw salary values, behavior-based features were created:
 - **OvertimeRatio**: Overtime pay relative to base salary
 - **OtherPayRatio**: Additional pay relative to base salary
@@ -41,4 +49,3 @@ These cases typically show unusually high overtime ratios or excessive extra pay
 - Pandas
 - NumPy
 - Scikit-learn
-
